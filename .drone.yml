@@ -1,1 +1,1 @@
-image: node script:  - npm install  - npm install -g mocha  - mochanotify:  email:    recipients:      - aqabiz@allies.co.in
+image: node script:  - npm install  - npm install -g mocha  - mocha  - echo hellonotify:  email:    recipients:      - aqabiz@allies.co.in
